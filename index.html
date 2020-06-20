@@ -9,7 +9,8 @@
 <!--
 h2 {background-color:#F0BBF0; text-align:center; margin:0; padding-top:2px; padding-bottom:2px; font-size:1.2em;}
 .balloon {display:inline-block; border-radius: 50%; background-color: skyblue; text-align:center; margin:5px; text-decoration:none; width:3em; height: 3em; line-height:3em;}
-@media screen and (min-width: 480px) {.balloon {width:4em; height: 4em; line-height:4em; font-size:120%;}
+.pcsite{display:none;}
+@media screen and (min-width: 480px) {.balloon {width:4em; height: 4em; line-height:4em; font-size:120%;}.pcsite{display:none;}.spsite{display:inline-block;}}
  -->
 </style>
 <title>Portal:AzusaTokoha</title>
@@ -38,6 +39,11 @@ h2 {background-color:#F0BBF0; text-align:center; margin:0; padding-top:2px; padd
 <input type="hidden" name="tt" value="c" /><input type="hidden" name="ei" value="UTF-8" />
 <input type="text" name="p" width="80%">
 <input type="submit" width="18%" value="リアルタイム">
+
+<form action="https://ndlonline.ndl.go.jp/#!/search">
+<input type="hidden" name="searchCode" value="SIMPLE" />
+<input type="text" name="keyword" width="80%">
+<input type="submit" width="18%" value="リアルタイム">
 </form>
 
 </section>
@@ -51,7 +57,8 @@ h2 {background-color:#F0BBF0; text-align:center; margin:0; padding-top:2px; padd
 <a href="https://ja.wikipedia.org/wiki/Special:Watchlist" class="balloon">Jawp</a>
 <a href="https://mtetrag.miraheze.org/wiki/User:Mtetrag" class="balloon">🗒</a>
 <a href="https://enpedia.rxy.jp/" class="balloon">Enp</a>
-<a href="https://www.keio-ticketless.jp/keio-web/top.xhtml" class="balloon">京王座</a>
+<a href="https://www.keio-ticketless.jp/keio-web/sp/top.xhtml" class="balloon spsite">京王座</a>
+<a href="https://www.keio-ticketless.jp/keio-web/top.xhtml" class="balloon pcsite">京王座</a>
 <a href="http://azusatokoha.hatenablog.com/" class="balloon">✏</a>
 </section>
 
@@ -82,9 +89,9 @@ h2 {background-color:#F0BBF0; text-align:center; margin:0; padding-top:2px; padd
 
 <section style="text-align:center;">
 <h2>Transport</h2>
+<a href="https://share.timescar.jp/" class="balloon">TCS</a>
 <a href="https://www2.etc-meisai.jp/etc/R?funccode=1013000000&nextfunc=1013000000" class="balloon">ETC</a>
 <a href="https://www.driveplaza.com/dp/SearchTop" class="balloon">高速料</a>
-<a href="https://www.keio-ticketless.jp/keio-web/top.xhtml" class="balloon">京王座</a>
 </section>
 </body>
 </html>
